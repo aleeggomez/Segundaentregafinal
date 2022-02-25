@@ -65,18 +65,6 @@ footer{
 }
 /* fin clase card */
 
-/* inicio clase img */
-
-.img__control{
-	margin-left: 30px;
-	width: 200px;
-	height: 200px;
-}
-.img__tele{
-	margin-left: -1px;
-
-}
-/* fin clase img */
 
 /* inicio clase header */
 .header__logo{
@@ -90,7 +78,7 @@ footer{
 }
 
 .header__conteiner{
-	
+	background-color: saddlebrown;
 }
 /* fin clase header */
 
@@ -114,12 +102,24 @@ footer{
 
 .img__control{
 	margin-left: 30px;
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
 	display: flex;
 	flex-direction: column;
     flex-wrap: nowrap;
+    animation-name: img__control;
+   animation-iteration-count: 2s;
+   animation-timing-function: ease-in-out;
+   animation-duration: 2s;
+   animation-delay: 1s;
+
 }
 .img__tele{
+	margin-left: -1px;
 	margin-left: 30px;
+	transition: height 2s;
+
 }
 /* fin clase img */
 /* fin clase article */
@@ -176,4 +176,14 @@ footer{
 .contenedor .elegi{
 	display: flex;
 	
+}
+/* fin clase grid */
+
+@keyframes img__control{
+	0%{ width: 100px; }
+   0.2s{ width: 50px; }
+   25%{ width: 300px; }
+   50%{ width: 200px; }
+   75%{ width: 300px;}
+   100%{ width: 100px;}
 }

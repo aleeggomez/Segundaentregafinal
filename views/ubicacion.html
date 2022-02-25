@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ubicacion</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="../css/estilo.css">
 
 </head>
 <body>
 	<header class="header">
 		<div class="header__conteiner">
-			<div class="header__logo">
+			<div class="header__logo wow animate__animated animate__lightSpeedInRight animate__delay-1s">
 				<img src="../assets/img/logoo.png" class="logo" alt="logo">
 			</div>
-			<h3 class="service">Service Electronica</h3>
+			<h3 class="service wow animate__animated animate__fadeIn animate__delay-1s">Service Electronica</h3>
 		</div>
 		<nav>
 			<ul class="header__nav nav--background">
@@ -49,14 +50,23 @@
 			
 		</article>
 	</section>
-	<footer class="footer">
+<footer class="footer">
+	<div class="horario wow animate__animated animate__zoomIn animate__delay-1s">
 		<h2>Horarios de Atencion:<br>De 9 a 13 y de 16 a 19
 			</h2>
+	</div>
 		<div class="footer__bg"> 
-		<h4 class="footer__item footer__logobg">LOGO</h4>
-		<h4 class="footer__item footer__ubicacionbg">UBICACION</h4>
-		<h4 class="footer__item footer__contactobg">CONTACTO</h4>
+			<div class="footer__logo wow animate__animated animate__lightSpeedInRight animate__delay-1s">
+				<img src="../assets/img/logoo.png" class="logo" alt="logo">
+			</div>
+				<h4 class="footer__item footer__ubicacionbg">UBICACION</h4>
+				<h4 class="footer__item footer__contactobg">CONTACTO</h4>
 		</div>
-	</footer>
+</footer>
+	</div>
+  <script src="js/wow.min.js"></script>
+ 	<script>
+     	new WOW().init();
+    </script>
 </body>
 </html>
