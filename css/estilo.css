@@ -63,6 +63,9 @@ footer{
 .card--bg{
 	background-color: sandybrown;
 }
+.bgcard{
+	background-color: #D55C23;
+}
 /* fin clase card */
 
 
@@ -112,7 +115,7 @@ footer{
    animation-iteration-count: 2s;
    animation-timing-function: ease-in-out;
    animation-duration: 2s;
-   animation-delay: 1s;
+   
 
 }
 .img__tele{
@@ -159,7 +162,7 @@ footer{
 	position: relative;
 }
 .horario{
-	background-color: lightslategray;
+	background-color: #C06337;
 }
 
 /* fin clase footer */
