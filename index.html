@@ -5,12 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
 	<title>Home</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body> 
 	<div class="contenedor">
 <header class="header">
+		<div class="row">
+			<div class="col-lg-12 col-12"></div>
+
+		</div>
 			<div class="header__conteiner">
 				<div class="header__logo wow animate__animated animate__lightSpeedInRight animate__delay-1s">
 					<img src="assets/img/logoo.png" class="logo" alt="logo">
@@ -18,14 +23,32 @@
 				<h1 class="service wow animate__animated animate__fadeIn animate__delay-1s">Service Electronica</h1>
 				</div>
 		<nav>
-			<ul class="header__nav nav--background">
-				<li class="nav__item nav__item--background "><a href="index.html" class="nav__item--color">Home</a></li>
-				<li class="nav__item nav__item--background "><a href="./views/reparacion.html" class="nav__item--color">Reparacion</a></li>
-				<li class="nav__item nav__item--background "><a href="./views/ubicacion.html" class="nav__item--color">ubicacion</a></li>
-				<li class="nav__item nav__item--background "><a href="./views/productos.html" class="nav__item--color">producto</a></li>
-				<li class="nav__item nav__item--background "><a href="./views/contactos.html" class="nav__item--color">Contacto</a></li>
-				<li class="nav__item nav__item--background "><a href="#" class="nav__item--color"><a href="https://goo.gl/maps/3gQFZoutVxCCccaM8" target="_blank">Ir a Maps</a></li>
-			</ul>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Busqueda</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./views/productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./views/reparacion.html">Reparacion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./views/ubicacion.html">Ubicacion</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./views/contactos.html">Contactos</a>
+        </li>
+      </li>
+    </ul>
+  </div>
+</nav>
 		</nav>
 </header>
 	<section>
@@ -72,9 +95,11 @@
 		</div>
 </footer>
 	</div>
-  <script src="js/wow.min.js"></script>
+  	<script src="js/wow.min.js"></script>
  	<script>
      	new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
