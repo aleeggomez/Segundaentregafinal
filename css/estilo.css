@@ -1,206 +1,280 @@
-h3{
-	color: black;
-}
-li{
-	list-style-type: none;
-	padding: 20px;
+.footer__item {
+  width: 100px;
+  height: 100px;
+  margin: 111px;
+  padding: 20px; }
 
-}
-ul{
-	display: flex;
-	justify-content: center;
-}
-header{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-footer{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
-	
-}
-/* inicio clase h */
-.service{
-	color: black;
-	padding: 11px;
-	padding-top: 0px;
-	margin-bottom: 40px;
-	text-align: center;
-}
-.REPARACIONES{
-	padding: 20px;
-}
+.footer__logo .logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 1px;
+  padding-left: 1px; }
 
-.venta{
-	padding: 20px;
-}
-/* fin clase h*/
+.footer__bg {
+  margin-top: 76px; }
 
-/* inicio clase nav */
-.nav__item{
-	display: inline;
-	position: relative;
-}
+.footer__logobg {
+  color: chocolate; }
 
-.nav__item--background{
-	background-color: sandybrown;
-}
+.footer__ubicacionbg {
+  color: sandybrown; }
 
-.nav__item--color{
-	color: black;
-}
-/* fin clase nav */
+.footer__contactobg {
+  color: #382c2d; }
 
-/* inicio clase card */
-.card{
-	margin-right: 30px;
-	margin-left: 23px;
-}
+.footer__bg {
+  background-color: saddlebrown; }
 
-.card--bg{
-	background-color: sandybrown;
-}
-.bgcard{
-	background-color: #D55C23;
-}
-/* fin clase card */
+.footer__item {
+  display: inline;
+  position: relative; }
 
-
-/* inicio clase header */
-.header__logo{
-	width: 100px;
-	height: 100px;
-}
-
-.header__logo .logo{
-	width: 100%;
-	height: 100%;
-}
-
-.header__conteiner{
-	background-color: saddlebrown;
-}
-/* fin clase header */
-
-/* inicio clase article */
-.article__tele.fotoTele{
-	width: 200px;
-	height: 200px;
-}
-.article__control .fotoControl{
-	width: 200px;
-	height: 200px;
-}.article__pilas .fotoPilas{
-	width: 300px;
-	height: 300px;
-}
-.article__telefono .fotoTelefono{
-	width: 300px;
-	height: 300px;
-}
-/* inicio clase img */
-
-.img__control{
-	margin-left: 30px;
-	width: 200px;
-	height: 200px;
-	margin-left: 30px;
-	display: flex;
-	flex-direction: column;
-    flex-wrap: nowrap;
-    animation-name: img__control;
-   animation-iteration-count: 2s;
-   animation-timing-function: ease-in-out;
-   animation-duration: 2s;
-   
-
-}
-.img__tele{
-	margin-left: -1px;
-	margin-left: 30px;
-	transition: height 2s;
-
-}
-/* fin clase img */
-/* fin clase article */
+.horario {
+  background-color: #C06337; }
 
 /* inicio clase footer */
-.footer__item{
-	width: 100px;
-	height: 100px;
-	margin: 111px;
-	padding: 20px;
-}	
-.footer__logo .logo{
-	width: 50px;
-	height: 50px;
-	margin-top: 1px;
-    padding-left: 1px;
-}
+.footer__item {
+  width: 100px;
+  height: 100px;
+  margin: 111px;
+  padding: 20px; }
 
-.footer__bg{
-	margin-top: 76px;
-}
+.footer__logo .logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 1px;
+  padding-left: 1px; }
 
-.footer__logobg{
-	color: chocolate;
-}
-.footer__ubicacionbg{
-	color: sandybrown ;
-}
-.footer__contactobg{
-	color: rgb(56,44,45);
-}
-.footer__bg{
-	background-color: saddlebrown;
-}
-.footer__item{
-	display: inline;
-	position: relative;
-}
-.horario{
-	background-color: #C06337;
-}
+.footer__bg {
+  margin-top: 76px; }
+
+.footer__logobg {
+  color: chocolate; }
+
+.footer__ubicacionbg {
+  color: sandybrown; }
+
+.footer__contactobg {
+  color: #382c2d; }
+
+.footer__bg {
+  background-color: saddlebrown; }
+
+.footer__item {
+  display: inline;
+  position: relative; }
+
+.horario {
+  background-color: #C06337; }
 
 /* fin clase footer */
+.header__logo {
+  width: 100px;
+  height: 100px; }
 
-/* inicio clase grid */
+.header__logo .logo {
+  width: 100%;
+  height: 100%; }
 
 .contenedor {
-	display: grid;
-}
-.contenedor .header{
-	display: grid;
-	background-color: saddlebrown;
-}
-.contenedor .elegi{
-	display: flex;
-	
-}
-/* fin clase grid */
+  display: grid; }
 
-@keyframes img__control{
-	0%{ width: 100px; }
-   0.2s{ width: 50px; }
-   25%{ width: 300px; }
-   50%{ width: 200px; }
-   75%{ width: 300px;}
-   100%{ width: 100px;}
-}
- 
- /* fin clase conteiner */
+.contenedor .header {
+  display: grid;
+  background-color: saddlebrown; }
+
+.contenedor .elegi {
+  display: flex; }
+
+/* inicio clase header */
+.header__logo {
+  width: 100px;
+  height: 100px; }
+
+.header__logo .logo {
+  width: 100%;
+  height: 100%; }
+
+.header__conteiner {
+  background-color: saddlebrown; }
+
+/* fin clase header */
+.article__tele.fotoTele {
+  width: 200px;
+  height: 200px; }
+
+.article__control .fotoControl {
+  width: 200px;
+  height: 200px; }
+
+.article__pilas .fotoPilas {
+  width: 300px;
+  height: 300px; }
+
+.article__telefono .fotoTelefono {
+  width: 300px;
+  height: 300px; }
+
+.img__control {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  animation-name: img__control;
+  animation-iteration-count: 2s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s; }
+
+.img__tele {
+  margin-left: -1px;
+  margin-left: 30px;
+  transition: height 2s; }
+
+.card--bg {
+  background-color: sandybrown; }
+
+.bgcard {
+  background-color: #D55C23; }
+
+/* fin clase card */
+/* inicio clase nav */
+.nav__item {
+  display: inline;
+  position: relative; }
+
+.nav__item--background {
+  background-color: sandybrown; }
+
+.nav__item--color {
+  color: black; }
+
+/* fin clase nav */
+@mixing flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+/* inicio clase img */
+.img__control {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  animation-name: img__control;
+  animation-iteration-count: 2s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s; }
+
+.img__tele {
+  margin-left: -1px;
+  margin-left: 30px;
+  transition: height 2s; }
+
+.img__compu {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+/* fin clase img */
+@keyframes img__control {
+  0% {
+    width: 100px; }
+  0.2s {
+    width: 50px; }
+  25% {
+    width: 300px; }
+  50% {
+    width: 200px; }
+  75% {
+    width: 300px; }
+  100% {
+    width: 100px; } }
+
+h1 {
+  color: red; }
+
+body {
+  background: orange; }
+
+h3 {
+  color: black; }
+
+li {
+  list-style-type: none;
+  padding: 20px; }
+
+ul {
+  display: flex;
+  justify-content: center; }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center; }
+
+/* inicio clase h */
+.service {
+  color: black;
+  padding: 11px;
+  padding-top: 0px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.REPARACIONES {
+  padding: 20px; }
+
+.venta {
+  padding: 20px; }
+
+/* fin clase h*/
+/* inicio clase article */
+.article__tele.fotoTele {
+  width: 200px;
+  height: 200px; }
+
+.article__control .fotoControl {
+  width: 200px;
+  height: 200px; }
+
+.article__pilas .fotoPilas {
+  width: 300px;
+  height: 300px; }
+
+.article__telefono .fotoTelefono {
+  width: 300px;
+  height: 300px; }
+
+/* inicio clase img */
+.contenedor {
+  display: grid; }
+
+.contenedor .header {
+  display: grid;
+  background-color: saddlebrown; }
+
+.contenedor .elegi {
+  display: flex; }
 
 .produConteiner {
- display: flex;
- justify-content: space-between;
- align-items: flex-start;
- width: 100%;
- high: 100%;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  high: 100%; }
+
 .itemConteiner {
- display: flex;
- flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }

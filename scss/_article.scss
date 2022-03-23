@@ -1,0 +1,40 @@
+.article__tele.fotoTele{
+	width: 200px;
+	height: 200px;
+}
+.article__control .fotoControl{
+	width: 200px;
+	height: 200px;
+}.article__pilas .fotoPilas{
+	width: 300px;
+	height: 300px;
+}
+.article__telefono .fotoTelefono{
+	width: 300px;
+	height: 300px;
+}
+.img__control{
+	margin-left: 30px;
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+ 	animation-name: img__control;
+   animation-iteration-count: 2s;
+   animation-timing-function: ease-in-out;
+   animation-duration: 2s;
+   
+
+}
+.img__tele{
+	margin-left: -1px;
+	margin-left: 30px;
+	transition: height 2s;
+
+}
+.card--bg{
+	background-color: sandybrown;
+}
+.bgcard{
+	background-color: #D55C23;
+}
+/* fin clase card */

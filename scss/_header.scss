@@ -1,0 +1,36 @@
+.header__logo{
+	width: 100px;
+	height: 100px;
+}
+.header__logo .logo{
+  width: 100%;
+  height: 100%;
+}
+.header__conteiner{
+
+}
+.contenedor {
+	display: grid;
+}
+.contenedor .header{
+	display: grid;
+	background-color: saddlebrown;
+}
+.contenedor .elegi{
+	display: flex;
+}
+/* inicio clase header */
+.header__logo{
+	width: 100px;
+	height: 100px;
+}
+
+.header__logo .logo{
+	width: 100%;
+	height: 100%;
+}
+
+.header__conteiner{
+	background-color: saddlebrown;
+}
+/* fin clase header */

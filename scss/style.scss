@@ -1,0 +1,97 @@
+//Variables
+@import "footer";
+@import "header";
+@import "article";
+@import "nav";
+@import "mixing";
+@import "map";
+@import "img";
+
+//agregando color 
+
+h1{
+	color: $color-primario
+}
+body{
+	background: $color-bg
+}
+h3{
+	color: black;
+}
+li{
+	list-style-type: none;
+	padding: 20px;
+
+}
+ul{
+	display: flex;
+	justify-content: center;
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+/* inicio clase h */
+.service{
+	color: black;
+	padding: 11px;
+	padding-top: 0px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.REPARACIONES{
+	padding: 20px;
+}
+
+.venta{
+	padding: 20px;
+}
+/* fin clase h*/
+/* inicio clase article */
+.article__tele.fotoTele{
+	width: 200px;
+	height: 200px;
+}
+.article__control .fotoControl{
+	width: 200px;
+	height: 200px;
+}.article__pilas .fotoPilas{
+	width: 300px;
+	height: 300px;
+}
+.article__telefono .fotoTelefono{
+	width: 300px;
+	height: 300px;
+}
+/* inicio clase img */
+.contenedor {
+	display: grid;
+}
+.contenedor .header{
+	display: grid;
+	background-color: saddlebrown;
+}
+.contenedor .elegi{
+	display: flex;
+	
+}
+
+.produConteiner {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ width: 100%;
+ high: 100%;
+}
+.itemConteiner {
+ display: flex;
+ flex-direction: column;
+}
