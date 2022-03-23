@@ -190,3 +190,17 @@ footer{
    75%{ width: 300px;}
    100%{ width: 100px;}
 }
+ 
+ /* fin clase conteiner */
+
+.produConteiner {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ width: 100%;
+ high: 100%;
+}
+.itemConteiner {
+ display: flex;
+ flex-direction: column;
+}
